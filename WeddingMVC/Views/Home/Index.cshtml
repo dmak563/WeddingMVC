@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Wedding Bedding";
+    var message = Convert.ToString(TempData["Thanks"]);
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (!string.IsNullOrWhiteSpace(message))
+{
+    <h3>@message</h3>
+}
+
+@Html.ActionLink("Quiz", "Quiz")
+@Html.ActionLink("Location", "Location")
