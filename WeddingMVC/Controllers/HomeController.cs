@@ -24,9 +24,6 @@ namespace WeddingMVC.Controllers
 
         public ActionResult Quiz()
         {
-            var xx = 0;
-            xx = 1231;
-            
             ViewData["listOfIsExist"] = new[] {
                                             new SelectListItem {Text = "Да", Value = "True"},
                                             new SelectListItem {Text = "Да ДА", Value = "False"}
